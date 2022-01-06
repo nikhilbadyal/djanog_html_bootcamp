@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basics</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <p>In this we get a continous line even if i enter in new lines</p>
+    <p><b>This is a bold text by B Tag</b></p>
+    <p><strong>This is a bold text by strong tag</strong></p>
+    <p><i>This is a italic text by I tag </i></p>
+    <p><em>This is a italic text by em tag</em></p>
+
+    <h2>This is a ordered list</h2>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <h2>This is a unordered list</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <h2>This is a nested list</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <ul>
+        <li>Item 3</li>
+      </ul>
+    </ul>
+
+    <h1>Divs and Spans</h1>
+
+    <div class="groupone">
+      <h1>Group 1</h1>
+      <p>I'm in group one</p>
+    </div>
+
+    <h1>Attributes</h1>
+
+    <img src="203530.jpg" alt="Ah Crap! Image not found" />
+    <img src="2035310.jpg" alt="Ah Crap! Image not found" />
+
+    <a href="clikcked.html">Click me to see magic</a>
+
+    <a href="clikcked.html"
+      ><img src="203530.jpg" alt="Ah Crap! Image not found"
+    /></a>
+
+    <h1>We can also make tables</h1>
+
+    <table border="1">
+      <thead>
+        <th>Number</th>
+        <th>Color</th>
+        <th>Country</th>
+      </thead>
+      <tr>
+        <td>1</td>
+        <td>Red</td>
+        <td>India</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Pink</td>
+        <td>Korea</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Black</td>
+        <td>Japan</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td></td>
+        <td>Japan</td>
+      </tr>
+    </table>
+
+    <h1>Inputs</h1>
+
+    <input type="text" /><br />
+    <input type="button" /><br />
+    <input type="checkbox" /><br />
+    <input type="color" /><br />
+    <input type="date" /><br />
+    <input type="datetime-local" /><br />
+    <input type="email" /><br />
+    <input type="file" /><br />
+    <input type="hidden" /><br />
+    <input type="image" /><br />
+    <input type="month" /><br />
+    <input type="number" /><br />
+    <input type="password" /><br />
+    <input type="radio" /><br />
+    <input type="range" /><br />
+    <input type="search" /><br />
+    <input type="submit" /><br />
+    <input type="tel" /><br />
+    <input type="time" /><br />
+    <input type="url" /><br />
+    <input type="week" /><br />
+
+    <form action="https://www.github.com/nikhilbadyal" method="get">
+      <h1>Login</h1>
+      <h2>Please enter email and password</h2>
+      <input type="email" name="email" /><br />
+      <input type="password" name="password" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>Another Login Form</h1>
+    <form>
+      <label>
+        Enter Email:
+        <input type="email" name="email" /><br />
+      </label>
+      <label>
+        Enter Password:
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        /><br />
+      </label>
+      <input type="submit" value="Log In" />
+    </form>
+
+    <h1>Form and Selection</h1>
+
+    <form method="get">
+      <h1>Do you live in India ?</h1>
+      <label for="inIndia">Inside:</label>
+      <input type="radio" name="location" value="yes" />
+      <label for="inIndia">OutSide:</label>
+      <input type="radio" name="location" value="no" />
+
+      <h2>Dropdown Menu</h2>
+      <select name="options">
+        <option value="opt1">Opt1</option>
+        <option value="opt2">Opt2</option>
+        <option value="opt3">Opt3</option>
+      </select>
+      <input type="submit" value="SUBMIT" />
+
+      <p>Any other feedback?</p>
+      <textarea rows="8"></textarea>
+    </form>
+  </body>
+</html>
