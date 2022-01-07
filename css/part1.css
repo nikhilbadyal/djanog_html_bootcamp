@@ -3,6 +3,7 @@ tag{
     property: value;
 }
  */
+/*
 h1{
     color: red;
 }
@@ -22,4 +23,30 @@ p{
 
 h3{
     color: rgba(137, 8, 245,1);
+}*/
+
+
+/*part 2*/
+/*
+body {
+    background: url('https://www.fancypantshomes.com/wp-content/uploads/2019/06/minimalist-decor-wall-clock-1-e1559524558834-1024x760.jpg');
+    !*background-color: gray;*!
 }
+
+div {
+    background: red;
+    border-color: blue;
+    border-width: 3px;
+    !*border-width: thick;*!
+    border-style: dotted;
+}
+
+p {
+    color: yellow;
+}
+
+span {
+    background: red;
+    color: blue;
+}*/
+
