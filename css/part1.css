@@ -50,3 +50,34 @@ span {
     color: blue;
 }*/
 
+
+/*
+div{
+    color: red;
+}*/
+
+.firstDiv{
+    color: red;
+}
+
+.secondDiv{
+    color: aqua;
+}
+
+#singledOut{
+    color: green;
+}
+
+/*Override other than id*/
+/*
+*{
+    color: greenyellow;
+}*/
+
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+li a{
+    color: brown;
+}
