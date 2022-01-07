@@ -1,0 +1,25 @@
+/*
+tag{
+    property: value;
+}
+ */
+h1{
+    color: red;
+}
+
+li{
+    color: rgb(137, 8, 245);
+
+}
+
+h4{
+    color: gray;
+}
+
+p{
+    color: #ff1515;
+}
+
+h3{
+    color: rgba(137, 8, 245,1);
+}
